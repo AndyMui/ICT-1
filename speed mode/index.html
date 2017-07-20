@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+p.ex1 {
+    margin-left: 710px;
+}
+</style>
+  <meta charset="UTF-8">
+  <link href="style.css" rel="stylesheet">
+  <title>2048</title>
+</head>
+<body>
+  <h1>2048</h1>
+  <p id="score"></p>
+  <p class="ex1">You can choose how many seconds for a new block to appear  </p>
+  <div id="size-bloc">
+    <p id="size-title">Seconds: </p>
+    <input id="size" type="number" value="4">
+    <input id="change-size" type="button" value="Ok">
+    <div class="clear"></div>
+  </div>
+  <div id="canvas-block">
+    <canvas id="canvas" width="500" height="500"></canvas>
+  </div>
+  <script src="script.js"></script>
+  <p id="score">HOW TO PLAY: Use your arrow keys to move the tiles. When two tiles with the same number touch, they merge into one!</p>
+</body>
+</html>

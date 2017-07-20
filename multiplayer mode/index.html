@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link href="style.css" rel="stylesheet">
+  <title>2048</title>
+</head>
+<body>
+  <h1>2048</h1>
+  <p id="score"></p>
+  <div id="clockdiv">
+    <div>
+      <span class="minutes"></span>
+      <div class="smalltext">Minutes</div>
+    </div>
+    <div>
+      <span class="seconds"></span>
+      <div class="smalltext">Seconds</div>
+    </div>
+  </div>
+  <script src="clock.js"></script>
+  <div id="canvas-block">
+    <canvas id="canvas1" width="500" height="500" ></canvas>
+    <canvas id="canvas2" width="500" height="500" ></canvas>
+  </div>
+  <script src="script.js"></script>
+  <p id="score">HOW TO PLAY: Use your arrow keys to move the tiles. When two tiles with the same number touch, they merge into one!</p>
+</body>
+</html>
